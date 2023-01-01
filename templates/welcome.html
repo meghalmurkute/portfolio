@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Meghal Murkute</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename = 'Images/Self.jpg') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/Welcome.css') }}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="{{ url_for('static', filename = 'js/homepage.js') }}"></script>
+</head>
+
+<body class="body" onload="move()">
+    <div>
+        <div>
+            <table class="card">
+                <tr>
+                    <td class="imgtd">
+                        <img src="{{ url_for('static', filename = 'Images/Self.jpg') }}" alt="Meghal Murkute"
+                            class="img">
+                    </td>
+                    <td class="txttd">
+                        <b>
+                            <p id="hi" style="font-family:'Courier New', Courier, monospace">HI THERE &#128075; I'M <br>
+                            </p>
+                        </b>
+                        <p><b id="name" style="font-size: 2.2em; font-family:'Courier New', Courier, monospace">Meghal
+                                Murkute</b><br>
+                        <h5 id="details" style="font-family:'Courier New', Courier, monospace">MDM Stibo STEP - Solution
+                            Consultant <br>
+                            at Pivotree</h5>
+                        </p>
+                        <div id="myProgress" class="w3-light-grey w3-round-xlarge">
+                            <div id="myBar" class="w3-container w3-blue w3-round-xlarge" style="width:25%"></div>
+                          </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
