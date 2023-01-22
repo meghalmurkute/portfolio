@@ -1,7 +1,6 @@
 .body {
     max-width: 100%;
     max-height: 100%;
-    padding: 2%;
     margin: auto;
 }
 
@@ -17,7 +16,7 @@
 }
 
 .txttd {
-    padding: 10%;
+    padding: 5%;
 }
 
 .card {
@@ -144,3 +143,60 @@
 .container1 {
     padding: 2px 16px;
 }
+
+.menu_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu_li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.menu_li:last-child {
+    border-right: none;
+}
+
+.menu_li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+a:hover {
+    color: #f1f1f1;
+}
+
+section {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: Black;
+    opacity: 0.5;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }

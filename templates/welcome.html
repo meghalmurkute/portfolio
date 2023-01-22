@@ -2,43 +2,369 @@
 
 <head>
     <title>Meghal Murkute</title>
-    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename = 'Images/Self.jpg') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename = 'Images/Self.png') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename = 'css/Welcome.css') }}">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="{{ url_for('static', filename = 'js/homepage.js') }}"></script>
 </head>
 
-<body class="body" onload="move()">
+<body class="body"
+    style="background-image: url('/static/Images/Background.png'); background-repeat: no-repeat; background-attachment: fixed;">
+    <ul class="menu_ul">
+        <li class="menu_li"><a href="#education">Academic Background</a></li>
+        <li class="menu_li"><a href="#work">Work Experience</a></li>
+        <li class="menu_li"><a href="#certificates">Certification</a></li>
+        <li class="menu_li"><a href="#projects">Projects</a></li>
+        <li class="menu_li"><a href="#aboutme">About Me</a></li>
+    </ul>
     <div>
         <div>
             <table class="card">
                 <tr>
                     <td class="imgtd">
-                        <img src="{{ url_for('static', filename = 'Images/Self.jpg') }}" alt="Meghal Murkute"
+                        <img src="{{ url_for('static', filename = 'Images/Self.png') }}" alt="Meghal Murkute"
                             class="img">
                     </td>
                     <td class="txttd">
-                        <b>
+                        <b style="color: white;">
                             <p id="hi" style="font-family:'Courier New', Courier, monospace">HI THERE &#128075; I'M <br>
                             </p>
                         </b>
-                        <p><b id="name" style="font-size: 2.2em; font-family:'Courier New', Courier, monospace">Meghal
+                        <p><b id="name" style="font-size: 2.2em; font-family:'Courier New', Courier, monospace;">Meghal
                                 Murkute</b><br>
                         <h5 id="details" style="font-family:'Courier New', Courier, monospace">MDM Stibo STEP - Solution
                             Consultant <br>
                             at Pivotree</h5>
+                        <i class="fa fa-map-marker" style="padding-bottom: 2.5%;">&nbsp Mumbai</i><br>
+                        <i class="fa fa-envelope" style="padding-bottom: 2.5%;">&nbsp meghalmurkute@gmail.com</i><br>
+                        <i class="fa fa-phone" style="padding-bottom: 1.5%;">&nbsp +91-9769621419</i>
                         </p>
-                        <div id="myProgress" class="w3-light-grey w3-round-xlarge">
-                            <div id="myBar" class="w3-container w3-blue w3-round-xlarge" style="width:25%"></div>
-                          </div>
-                        </div>
+                        <a href="/linkedin" class="fa fa-linkedin" style="font-size: 20px;" target="_blank"></a>
+                        <a href="/github" class="fa fa-github" style="font-size: 20px;" target="_blank"></a>
+                        <a href="/instagram" class="fa fa-instagram" style="font-size: 20px;" target="_blank"></a>
+                        <a href="/facebook" class="fa fa-facebook" style="font-size: 20px;" target="_blank"></a>
+                        <a href="/twitter" class="fa fa-twitter" style="font-size: 20px;" target="_blank"></a>
+                        <a href="/youtube" class="fa fa-youtube" style="font-size: 20px;" target="_blank"></a>
+                        <a href="/resume" class="fa fa-download" style="font-size: 20px;" target="_blank"></a>
                     </td>
                 </tr>
             </table>
         </div>
+        <section id="careerObjective">
+            <h2>CAREER OBJECTIVE</h2>
+            <hr style="height:2px;color:gray;background-color:gray">
+            <p>
+                To secure a challenging and dynamic role as a software developer, where I can utilize my years of
+                experience and knowledge in programming languages and software development tools to contribute to the
+                growth of the organization, while continuously learning and expanding my skills in the field.
+            </p>
+        </section>
+        <section id="education">
+            <h2>ACADEMIC BACKGROUND</h2>
+            <hr style="height:2px;color:gray;background-color:gray">
+            <p>
+            <ul>
+                <li style="padding-bottom: 2%"><b style="font-size: 110%;">Bachelor of Science in Information
+                        Technology</b><br>
+                    JVM Mehta, Airoli<br>
+                    June 2018 - October 2020<br>
+                    Grade: 73.4%
+                </li>
+                <li style="padding-bottom: 2%"><b style="font-size: 110%;">Diploma in Information Technology</b><br>
+                    VPM’s Polytechnic, Thane<br>
+                    June 2013 - January 2018<br>
+                    Grade: 64%
+                </li>
+                <li><b style="font-size: 110%;">Secondary School Certificate Examination</b><br>
+                    V. P. M. B. R. Tol. English High School, Mulund<br>
+                    June 2012 - May 2013<br>
+                    Grade: 60.2%
+                </li>
+            </ul>
+            </p>
+        </section>
+        <section id="work">
+            <h2>WORK EXPERIENCE</h2>
+            <hr style="height:2px;color:gray;background-color:gray">
+            <p>
+            <ul>
+                <li style="padding-bottom: 2%"><b style="font-size: 110%;">Solution Consultant</b><br>
+                    Pivotree &middot; August 2021 - Present
+                    <hr>
+                    <b>Projects:</b>
+                    <ul>
+                        <li>Vallen Distributions
+                            <hr>
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 25%;">Duration</td>
+                                    <td>23 January 2023 - Present</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Domain</td>
+                                    <td>Retail</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Team Size</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td>Tools and Skills</td>
+                                    <td>Stibo STEP | Jira | Excel | Visual Studio Code | Javascript | XML</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Role</td>
+                                    <td>Developer</td>
+                                </tr>
+                            </table>
+                            I'm responsible for developing and configuring Stibo STEP system<br>
+                            Object Model (Product, Classification, Asset) | LOV | Attributes | References | Import
+                            Configuration | Export Configuration | Inbound Integration Endpoint(IIEP) | Outbound
+                            Integration Endpoint(OIEP) | Workflow
+                            | Business Rules | Web UI | Action Set | User Roles and Privileges
+                        </li>
+                        <br>
+                        <li>Williams Sonoma
+                            <hr>
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 25%;">Duration</td>
+                                    <td>01 November 2022 - 18 January 2023</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Domain</td>
+                                    <td>Retail</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Team Size</td>
+                                    <td>14</td>
+                                </tr>
+                                <tr>
+                                    <td>Tools and Skills</td>
+                                    <td>Stibo STEP | Jira | Excel | Visual Studio Code | Javascript | XML</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Role</td>
+                                    <td>Developer</td>
+                                </tr>
+                            </table>
+                            I'm responsible for developing and configuring Stibo STEP system<br>
+                            Object Model (Product, Classification, Asset) | LOV | Attributes | References | Web UI |
+                            Business Rules
+                        </li>
+                        <br>
+                        <li>National Nail
+                            <hr>
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 25%;">Duration</td>
+                                    <td>15 August 2022 - Present</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Domain</td>
+                                    <td>Retail</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Team Size</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>Tools and Skills</td>
+                                    <td>Stibo STEP | Jira | Excel | Visual Studio Code | Javascript | XML</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Role</td>
+                                    <td>Developer</td>
+                                </tr>
+                            </table>
+                            I'm responsible for developing and configuring Stibo STEP system<br>
+                            Object Model (Product, Classification, Asset) | LOV | Attributes | References | Import
+                            Configuration | Export Configuration | PDX - Outbound Integration Endpoint(OIEP) | Workflow
+                            | Business Rules | Web UI | Action Set | User Roles and Privileges
+                        </li>
+                        <br>
+                        <li>Staples Print Catalog
+                            <hr>
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 25%;">Duration</td>
+                                    <td>01 May 2022 - 31 October 2022</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Domain</td>
+                                    <td>Retail</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Team Size</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>Tools and Skills</td>
+                                    <td>Stibo STEP | Jira | Excel | Visual Studio Code | Javascript | XML</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Role</td>
+                                    <td>Developer</td>
+                                </tr>
+                            </table>
+                            I'm responsible for developing and configuring Stibo STEP system<br>
+                            Object Model (Product, Classification, Publication, Asset, Product Overide) | LOV |
+                            Attributes | Data Container | References | Import Configuration | Export Configuration |
+                            Workflow | Business Rules | Web UI | Schedule Bulk udate | Action Set | User Roles and
+                            Privileges
+                        </li>
+                        <br>
+                        <li>Compass Vendor
+                            <hr>
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 25%;">Duration</td>
+                                    <td>10 October 2021 - 10 July 2022</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Domain</td>
+                                    <td>Retail</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Team Size</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>Tools and Skills</td>
+                                    <td>Stibo STEP | Jira | Excel | Visual Studio Code | Javascript | XML</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%;">Role</td>
+                                    <td>Developer</td>
+                                </tr>
+                            </table>
+                            I'm responsible for developing and configuring Stibo STEP system<br>
+                            Object Model (Entity) | LOV | Attributes | Data Container | References | Inbound Integration
+                            Endpoint(IIEP) | Outbound Integration Endpoint(OIEP) | Workflow | Business Rules | Web UI |
+                            Schedule Bulk update | Match and Link
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            </p>
+        </section>
+        <section id="certificates">
+            <h2>CERTIFICATIONS</h2>
+            <hr style="height:2px;color:gray;background-color:gray">
+            <p>
+            <ul>
+                <li style="padding-bottom: 2%">Python + Machine Learning + Artificial Intelligence, February 2020</li>
+                <li style="padding-bottom: 2%">MTA - Introduction to Programming using JavaScript, August 2019</li>
+                <li style="padding-bottom: 2%">ASP.Net, June 2018</li>
+                <li style="padding-bottom: 2%">Advanced Java, May 2016</li>
+                <li style="padding-bottom: 2%">Android Application Development, April 2016</li>
+                <li style="padding-bottom: 2%">Core Java, April 2016</li>
+                <li style="padding-bottom: 2%">Corel Draw + Photoshop, May 2013</li>
+                <li style="padding-bottom: 2%">C Programming, August 2009</li>
+                <li>MS-CIT, January 2009</li>
+            </ul>
+            </p>
+        </section>
+        <section id="projects">
+            <h2>ACADEMIC PROJECTS</h2>
+            <hr style="height:2px;color:gray;background-color:gray">
+            <p>
+            <ul>
+                <li style="padding-bottom: 2%">Automated Sanitizer in Python (IOT)</li>
+                <li style="padding-bottom: 2%">Task Manager in Python</li>
+                <li style="padding-bottom: 2%">Image Detection in Python (Django, OpenCV)</li>
+                <li style="padding-bottom: 2%">ITM Enquiry Desk in Java (Android)</li>
+                <li style="padding-bottom: 2%">Various Service Provider in Java (Android)</li>
+                <li style="padding-bottom: 2%">Word Processor in Java</li>
+                <li style="padding-bottom: 2%">Online Shopping in VB.Net</li>
+                <li>Flight Booking in C++</li>
+            </ul>
+            </p>
+        </section>
+        <section id="aboutme">
+            <h2>ACHIEVEMENTS AND EVENTS</h2>
+            <hr style="height:2px;color:gray;background-color:gray">
+            <p>
+            <ul>
+                <li style="padding-bottom: 2%">SEED IT Idol 2019, Mumbai</li>
+                <li style="padding-bottom: 2%;">Fashion Show at Daivadnya Samaj 2019, Dadar</li>
+                <li>As a Guest at JVM Mheta, Airoli for Alumni Guest Lecture February 2022 on "Current Trends in IT"
+                </li>
+            </ul>
+            </p>
+            <br>
+            <h2>RESEARCH PAPERS</h2>
+            <hr style="height:2px;color:gray;background-color:gray">
+            <p>
+            <ul>
+                <li><a href="/researchPaper"> A
+                        TOUR ON WIRELESS SECURITY TECHNIQUES</a><br>
+                    Journal: International Journal of Advance and Innovative Research Volume 6, Issue 1 (XXXIV): January
+                    - March, 2019
+                </li>
+            </ul>
+            </p>
+            <br>
+            <h2>LANGUAGES & TECHNOLOGIES</h2>
+            <hr style="height:2px;color:gray;background-color:gray">
+            <p>
+            <ul>
+                <li style="padding-bottom: 2%"><b style="font-size: 110%;">Programming Languages</b><br>
+                    Java, Python, C, C++, C#, Kotlin, Javascript
+                </li>
+                <li style="padding-bottom: 2%"><b style="font-size: 110%;">Frameworks & Technologies</b><br>
+                    Servlet, JSP, .Net, Django, OpenCV, Firebase, Node.js, Flask
+                </li>
+                <li style="padding-bottom: 2%"><b style="font-size: 110%;">Tools</b><br>
+                    Stibo STEP, VS Code, Android Studio, Netbeans, Eclipse, Anaconda, Visual Studio
+                </li>
+                <li style="padding-bottom: 2%"><b style="font-size: 110%;">Operating System</b><br>
+                    Windows, Linux, Raspbian OS
+                </li>
+                <li><b style="font-size: 110%;">Database</b><br>
+                    Mysql, SQL server, Mongo DB
+                </li>
+            </ul>
+            </p>
+            <br>
+            <h2>KEY SKILLS</h2>
+            <hr style="height:2px;color:gray;background-color:gray">
+            <p>
+            <ul>
+                <li style="padding-bottom: 2%">Leadership</li>
+                <li style="padding-bottom: 2%">Teamwork</li>
+                <li style="padding-bottom: 2%">Problem Solving</li>
+                <li style="padding-bottom: 2%">Time management & project management skills</li>
+                <li>Interpersonal & communication skills</li>
+            </ul>
+            </p>
+            <br>
+            <h2>HOBBIES</h2>
+            <hr style="height:2px;color:gray;background-color:gray">
+            <p>
+            <ul>
+                <li style="padding-bottom: 2%">Photography</li>
+                <li style="padding-bottom: 2%">Travelling</li>
+                <li style="padding-bottom: 2%">Music</li>
+                <li style="padding-bottom: 2%">Cooking</li>
+                <li style="padding-bottom: 2%">Football</li>
+                <li style="padding-bottom: 2%">Cricket</li>
+            </ul>
+            </p>
+        </section>
     </div>
+    <footer>
+        <p><b id="name" style="font-family:'Courier New', Courier, monospace;">Meghal
+            Murkute</b><br>
+        <a href="/linkedin" class="fa fa-linkedin" target="_blank"></a>
+        <a href="/github" class="fa fa-github" target="_blank"></a>
+        <a href="/instagram" class="fa fa-instagram" target="_blank"></a>
+        <a href="/facebook" class="fa fa-facebook" target="_blank"></a>
+        <a href="/twitter" class="fa fa-twitter" target="_blank"></a>
+        <a href="/youtube" class="fa fa-youtube" target="_blank"></a>
+        <a href="/resume" class="fa fa-download" target="_blank"></a></p>
+      </footer>
 </body>
 
 </html>

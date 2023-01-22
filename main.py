@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, request
+from flask import Flask, render_template, redirect
 from urllib.request import urlopen
 import re as r
 import sqlite3
@@ -41,11 +41,12 @@ def youtube():
 
 @app.route('/resume')
 def resume():
-   return redirect('https://drive.google.com/file/d/1F6zrvaOZG4Y3rQds4LGakl_ofN3LbX-3/view?usp=share_link')
+   return redirect('https://drive.google.com/file/d/1cPaOaZ7ZKD1UIzxfzBOIHB_t2-w_zwSz/view?usp=share_link')
 
 @app.route('/researchPaper')
 def researchPaper():
    return redirect('https://iaraedu.com/about-journal/ijair-volume-6-issue-1-xxxiv-january-march-2019.php')
+
 
 if __name__ == '__main__':
    app.run(debug = True)
